@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftNav{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.rightNav{
+    display: flex;
+    gap: 20px
+}

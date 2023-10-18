@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    gap: 30px;
+    padding: 30px 10px;
+    color: lightgray;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    background-color: white;
+
+}
+@media only screen and (max-width: 480px) {
+.container{
+    display: none;
+}
+  }
