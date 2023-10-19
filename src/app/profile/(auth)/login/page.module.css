@@ -35,4 +35,43 @@
     color: white;
     background-color:  #3d668f;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button:hover{
+    background-color: #518bc5;
+}
+
+
+@media only screen and (max-width: 1320px) {
+    .h1{
+        font-size: 45px;
+}
+}
+@media only screen and (max-width: 980px){
+    .h1{
+        font-size: 30px;
+}
+} 
+
+@media only screen and (max-width: 650px){
+    .container{
+    padding: 50px 0;
+
+    }
+    .h1{
+        font-size: 20px;
+}
+.form{
+    align-items: center;
+}
+.input{
+    width: 100%;
+}
+.button{
+    width: 50%;
+}
+
 }

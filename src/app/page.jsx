@@ -1,10 +1,8 @@
 'use client'
-
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import styles from './page.module.css';
-import home from 'public/homepage.jpeg'
 import Link from 'next/link';
 
 //use fit trueee
@@ -34,9 +32,12 @@ export default function Home() {
                 Programmer, A machine that turns coffee into code.
               </h1>
               <div className={styles.details}>
+              <Link href={'/profile/login'}>
               <button className={styles.button}>
                 Login
               </button>
+              </Link>
+
               <p> Don't have an account?</p>
             <Link href={'/profile/register'}>
             <button className={styles.button}>

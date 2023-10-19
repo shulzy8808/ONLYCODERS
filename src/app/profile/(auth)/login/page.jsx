@@ -9,18 +9,9 @@ import { useRouter } from 'next/navigation';
 const page = () => {
   const session = useSession()
   const router = useRouter()
-
-  if(session.status === 'loading'){
-    return <p>Please Wait...</p>
-}
   if(session.status === 'authenticated'){
     router?.push('/profilepage')
   }
-
-
-
-
-
 
   const handleSubmit = async(e)=>{
     e.preventDefault()

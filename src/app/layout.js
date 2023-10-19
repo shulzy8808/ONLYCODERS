@@ -1,9 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/navbar/Navbar'
-// import Sidebar from '@/components/sidebar/Sidebar'
 import AuthenticationProvider from '@/components/AuthenticationProvider/AuthenticationProvider'
-import Navbarr from '@/components/navbarr/Navbarr'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +16,7 @@ export default function RootLayout({ children }) {
         <div className='wrapper'>
         <AuthenticationProvider>
             {children}
-      </AuthenticationProvider>
+        </AuthenticationProvider>
         </div>
       </body>
     </html>

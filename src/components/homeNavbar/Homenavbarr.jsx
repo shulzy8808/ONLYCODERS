@@ -1,5 +1,5 @@
 "use client"
-import styles from './navbarr.module.css';
+import styles from './homeNavbarr.module.css';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';

@@ -14,10 +14,11 @@ providers: [
         id: 'credentials',
         name: 'Credentials',
         async authorize(credentials){
-            await connect()
+
+            await connect();
 
             try{
-                const user = await Userinfo.findOne({email:credentials.email})
+                const user = await Userinfo.findOne({email:credentials.email});
 
                 if(user){
                     const isPasswordcorrect = await bcrypt.compare(credentials.password, user.password)

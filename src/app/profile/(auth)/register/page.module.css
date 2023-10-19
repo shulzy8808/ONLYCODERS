@@ -32,3 +32,6 @@
     background-color:  #3d668f;
     cursor: pointer;
 }
+.button:hover{
+    background-color: #518bc5;
+}

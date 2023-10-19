@@ -318,6 +318,38 @@ gap: 10px;
 
 }
 
+
+@media only screen and (max-width: 1350px) {
+    .container{
+      padding: 25px 75px;
+    }
+    .heart{
+      left: 260px;
+    }
+    .groupName{
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+  .container{
+    padding: 15px 25px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .container{
+    padding: 15px 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .container{
+      width: 100%;
+      padding: 0px;
+  }
+  .containerBody{
+    display: none;
+  }
+} 
 @media only screen and (max-width: 480px) {
   .childContainer{
     flex: none;
@@ -349,12 +381,3 @@ gap: 10px;
     padding-bottom: 0px;
   }
 }
-@media only screen and (max-width: 750px) {
-    .container{
-        width: 100%;
-        padding: 0px;
-    }
-    .containerBody{
-      display: none;
-    }
-} 

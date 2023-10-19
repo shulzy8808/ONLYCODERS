@@ -23,6 +23,7 @@ const userSchema = new Schema({
     }
 
 )
+
 const Userinfo = mongoose.models.User || mongoose.model("User", userSchema)
 
-export default Userinfo
+export default Userinfo;

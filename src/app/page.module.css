@@ -47,10 +47,22 @@
     color: white;
     background-color:  #3d668f;
     width: 150px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #518bc5;
 }
 
-@media only screen and (max-width: 480px) {
-    .nav{
-        
-    }
+@media only screen and (max-width: 1320px) {
+    .h1{
+        font-size: 45px;
+}
+}
+@media only screen and (max-width: 980px){
+    .h1{
+        font-size: 25px;
+}
+.container{
+    padding: 20px 0;
+} 
 }

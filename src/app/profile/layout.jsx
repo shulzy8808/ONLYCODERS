@@ -1,10 +1,10 @@
-import Navbarr from '@/components/navbarr/Navbarr'
+import Homenavbarr from '@/components/homeNavbar/Homenavbarr'
 import React from 'react'
 
 const profileLayout = ({children}) => {
   return (
     <div>
-        <Navbarr/>
+        <Homenavbarr/>
         {children}
     </div>
   )
