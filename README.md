@@ -32,7 +32,7 @@ The main structure of this project are contained in:
   - `src/:` Lies all the components of the project
   - `public/:` Directory for static assets
 
-###Running the Project
+## Running the Project
   To view the webpage you'd first see the homepage and be required to create a login, you might be required to refresh your browser if it doesn't register at frst try, or you can log in with an existing account using your google email.
 
 ## Back-End Integration
@@ -46,6 +46,7 @@ For this stage, I have created a name, email, and password input users, which co
 You'd first be directed to the homepage where you eould be asked to either log in or register, choosiing register would make you to be able to create an account after the accout has been created you can then go on to log i whee the backend would communicste tot the backend to get the information.
 
 ### MongoDB Integration 
+
 ## Overview
 For this level the information taken from the form are stored in the data base 
 
@@ -54,7 +55,7 @@ For this level the information taken from the form are stored in the data base
  - JavaScript Fetch() Method
  - NextJS SWR: to fetch data for the side menus
    
-##Project Structure
+## Project Structure
   The structure for this level includes:
   
   - `api/:` Contains the routes and end points
