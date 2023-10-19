@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## ONLYCODER.NET ASSESSMENT
-  ###Overview
+  ### Overview
   The repo is my solution to the assessment for the ONLYCODERS.net which consists of three levels, but on running the code the homepage would first be open where you would be asked to login or register, I have integrated this code with the Google Provider, so that users can log in if the have a gmail account, then after user has been authneticated they would then be able to access the main page which is the sample page, and I have added a bit of interactivity where users can comment and like a post. The side menus like the Quest, Badge, Newest Members and Popular Groups all fetch their information from the database which is mapped to the sample page to make it maintainable.
   
 First, run the development server:
